@@ -1,11 +1,7 @@
-html {
+/* html {
     scroll-behavior: smooth;
   }
   
-.footer-container {
-    background-color: #000;
-}
-
 .footer-content {
     max-width: 1200px;
     margin: auto;
@@ -37,11 +33,11 @@ html {
     font-size: small;
 }
 
-/*media query for devices with a screen width of 412px or less*/
+
 @include media-breakpoint-down(sm) (max-width:412px){
     footer{
         padding:10px;
         font-size: 14px;
         flex-direction: column;
     }
-}
+} */

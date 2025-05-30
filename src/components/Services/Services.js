@@ -1,8 +1,9 @@
 import React from 'react';
-import Junk from '../assets/junk-removal.jpg'
-import Repair from '../assets/roof-repair.jpg'
-import Replace from '../assets/roof-replacement.jpg'
-import Install from '../assets/roof-installation.jpg'
+import Remodeling from '../assets/remodeling.jpg'
+import Renovation from '../assets/renovating.png'
+import Painting from '../assets/painting.jpg'
+import Roofing from '../assets/roofing.jpg'
+import Flooring from '../assets/flooring.jpg'
 import './Services.css';
 
 
@@ -20,33 +21,41 @@ function Services(){
                 </div>
                 <div class="col-sm mx-2">
                     <div className="service-item">
-                    <img src={Install} alt="Roof Installment" className="img-fluid"/>
-                        <h3 className="service-title text-left">Roof Installment</h3>
-                        <p className="service-description text-left">From selecting the best materials to completing a flawless installation, we prioritize quality and customer satisfaction every step of the way.</p>
+                    <img src={Remodeling} alt="Roof Installment" className="img-fluid"/>
+                        <h3 className="service-title text-left">Remodeling</h3>
+                        <p className="service-description text-left">From premium materials to precise craftsmanship, our remodeling service is built on quality, reliability, and customer satisfaction.</p>
                     </div>
                 </div>
 
                 <div class="col-sm mx-2">
                     <div className="service-item">
-                        <img src={Repair} alt="Roof Repair" className="img-fluid"/>
-                        <h3 className="service-title text-left">Roof Repair</h3>
-                        <p className="service-description text-left">Our team quickly addresses leaks, damage, and wear to restore your roof’s strength and keep your home safe.</p>
+                        <img src={Renovation} alt="Roof Repair" className="img-fluid"/>
+                        <h3 className="service-title text-left">Renovation</h3>
+                        <p className="service-description text-left">Whether it’s updating outdated spaces or restoring damaged areas, our renovation service brings new life to your home.</p>
                     </div>
                 </div>
 
                 <div class="col-sm mx-2">
                     <div className="service-item">
-                        <img src={Replace} alt="Roof Replacement" className="img-fluid"/>
-                        <h3 className="service-title text-left">Roof Replacement</h3>
-                        <p className="service-description text-left">Our team carefully removes your old roof and installs a new, high-quality one designed to enhance durability and boost your home’s value</p>
+                        <img src={Painting} alt="Roof Replacement" className="img-fluid"/>
+                        <h3 className="service-title text-left">Painting</h3>
+                        <p className="service-description text-left">Add the perfect finishing touch—whether interior or exterior—with colors that reflect your style and enhance your space.</p>
                     </div>
                 </div>
 
                 <div class="col-sm mx-2">
                     <div className="service-item">
-                        <img src={Junk} alt="Junk Removal" className="img-fluid"/>
-                        <h3 className="service-title text-left">Junk Removal</h3>
-                        <p className="service-description text-left">Whether it’s old furniture, yard waste, or unwanted items, our team handles it all. We offer quick, reliable pickup and disposal to clear out your space with ease.</p>
+                        <img src={Roofing} alt="Junk Removal" className="img-fluid"/>
+                        <h3 className="service-title text-left">Roofing</h3>
+                        <p className="service-description text-left">Protect your home with confidence—our roofing service offers expert installation, repairs, and replacements.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm mx-2">
+                    <div className="service-item">
+                        <img src={Flooring} alt="Junk Removal" className="img-fluid"/>
+                        <h3 className="service-title text-left">Flooring</h3>
+                        <p className="service-description text-left">From classic hardwood to modern vinyl and tile, our flooring service combines quality with stylish.</p>
                     </div>
                 </div>
             </div>
