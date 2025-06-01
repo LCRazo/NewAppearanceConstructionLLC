@@ -101,7 +101,7 @@ function Navbar() {
             <li>
               <a
                 href="#services"
-                className="block py-2 px-3 md:p-0 text-white no-underline rounded-sm hover:bg-charcoal hover:no-underline md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 md:p-0 text-white no-underline hover:bg-charcoal hover:no-underline rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
               >
                 Services
               </a>
@@ -109,7 +109,7 @@ function Navbar() {
             <li>
               <a
                 href="#work-gallery"
-                className="block py-2 px-3 md:p-0 text-white no-underline rounded-sm hover:bg-charcoal hover:no-underline md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 md:p-0 text-white no-underline hover:bg-charcoal hover:no-underline rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
               >
                 Work Gallery
               </a>
@@ -117,7 +117,7 @@ function Navbar() {
             <li>
               <a
                 href="#contact"
-                className="block py-2 px-3 md:p-0 text-white no-underline rounded-sm hover:bg-charcoal hover:no-underline md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 md:p-0 text-white no-underline hover:bg-charcoal hover:no-underline rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
               >
                 Contact
               </a>

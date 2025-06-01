@@ -9,8 +9,8 @@ function Footer(){
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">About Us</h2>
                  <p className='text-gray-500 max-w-sm break-words'>
-                    We're your friendly local and family-owned roofing company 
-                    with 15+ years of experience delivering superior exterior home 
+                    We're your friendly local construction company 
+                    with 25+ years of experience delivering superior exterior and interior home 
                     improvement solutions for the RGV.
                 </p>
             </div>
@@ -35,20 +35,28 @@ function Footer(){
             <span class=" flex flex-col md:flex-row text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2025 <strong> New Appearance Construction LLC</strong> All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                <a href="https://www.instagram.com/YOUR_USERNAME" class="text-gray-400 hover:text-gray-900 dark:hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 
+                            114.9-51.3 114.9-114.9S287.6 141 224.1 141zm0 189.6c-41.2 0-74.7-33.5-74.7-74.7s33.5-74.7 
+                            74.7-74.7 74.7 33.5 74.7 74.7-33.5 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.9-26.9 
+                            26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.3-36.3-93.7s-58-34.6-93.7-36.3c-37-2.1-147.9-2.1-184.9 
+                            0-35.7 1.7-67.3 9.9-93.7 36.3s-34.6 58-36.3 93.7c-2.1 37-2.1 147.9 0 
+                            184.9 1.7 35.7 9.9 67.3 36.3 93.7s58 34.6 93.7 
+                            36.3c37 2.1 147.9 2.1 184.9 0 35.7-1.7 67.3-9.9 
+                            93.7-36.3s34.6-58 36.3-93.7c2.1-37 2.1-147.9 
+                            0-184.9zM398.8 388c-7.8 19.6-22.9 34.7-42.6 
+                            42.6-29.5 11.7-99.5 9-132.1 9s-102.7 
+                            2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 
+                            9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 
+                            99.5-9 132.1-9s102.7-2.6 
+                            132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 
+                            9 99.5 9 132.1s2.6 102.7-9 132.1z"/>
                         </svg>
-                    <span class="sr-only">Facebook page</span>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-                        </svg>
-                    <span class="sr-only">Instagram page</span>
-                </a>
+                        <span class="sr-only">Instagram page</span>
+                    </a>
+                </div>
             </div>
-        </div>
         </div>
     </footer>
 
